@@ -177,3 +177,35 @@ footer{
 .footer-section-2 a{
     text-decoration: none;
 }
+/* footer section end */
+
+
+@media screen and (max-width: 600px) {
+
+    /* header section start */
+    header{
+        max-width: 600px;
+        flex-direction: column;
+    }
+    .header-section-1{
+        width: 100%;
+        padding: 0rem;
+        text-align: center;
+    }
+    .header-section-1 h1{
+        font-size: 3rem;
+        font-weight: 700;
+        line-height: 3rem;
+    }
+
+    .header-section-2{
+        width: 100%;
+        display: block;
+        height: 200px;
+        margin-top: 4rem;
+    }
+    /* header section end */
+
+
+    
+}
