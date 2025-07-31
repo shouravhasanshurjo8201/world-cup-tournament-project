@@ -42,13 +42,109 @@ header{
     border-radius: 10px;
     padding: 10px 25px;
 }
+.header-section-1 button:hover{
+    background-color: rgb(94, 53, 246);
+
+}
 .header-section-2{
     width: 50%;
     display: block;
-    height: auto;
+    height: 500px;
 }
 .header-section-2 img{
     width: 100%;
     height: 100%;
 }
 /* header section end */
+
+/* main section start */
+main{
+    max-width: 1300px;
+    margin: 1rem auto;
+}
+
+.Chelsea-section{
+    display: flex;
+    gap: 2rem;
+}
+.Chelsea-section-1{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20%;
+    padding: 2rem;
+    background-color: cadetblue;
+    border: 1px solid yellowgreen;
+    height: 220px;
+    border: 1px solid blue;
+    border-radius: 1rem;
+}
+.Chelsea-section-1 button{
+    background-color: blueviolet;
+    border: none;
+    border-radius: 1rem;
+    padding: 1rem ;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.Chelsea-section-1 button:hover{
+   background-color: rgb(94, 53, 246);
+
+}
+.Chelsea-section-1 .Upcoming{
+    background-color: crimson;
+}
+.Chelsea-section-1 .Upcoming:hover{
+    background-color: rgb(94, 53, 246);
+
+}
+.Chelsea-section-2{
+    padding: 1.5rem;
+    width: 80%;
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(244, 252, 252);
+    border: 1px solid yellowgreen;
+    border-radius: 1rem;
+}
+.Chelsea-section-2 .Chelsea-section-card{
+    background-color: rgb(210, 231, 235);
+    margin: 5px;
+    padding: 10px;
+    gap: 1rem;
+    border-radius: 10px;
+}
+.Chelsea-section-2 .Chelsea-section-card img{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+}
+.Chelsea-section-2 .Chelsea-section-card button{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #e2f0ec;
+    margin: 1rem 0px;
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    background-color: crimson;
+    border: none;
+    border-radius: 10px;
+}
+.Chelsea-section-2 .Chelsea-section-card button:hover{
+    background-color: rgb(94, 53, 246);
+}
+.Chelsea-section-2 .Chelsea-section-card p{
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: #222625;
+    font-family: "Poppins", sans-serif;
+}
+.Chelsea-section-2 .Chelsea-section-card .icon{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 2rem;
+}
+/* main section End */
